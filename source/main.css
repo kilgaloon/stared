@@ -1,0 +1,20 @@
+.staredContainer .set-review {
+	background-image: url('../images/no_star.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	margin: 5px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+}
+
+.staredContainer .set-review.active {
+	background-image: url('../images/full_star.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.staredContainer .set-review input.hidden {
+	/*display: none;*/
+}
